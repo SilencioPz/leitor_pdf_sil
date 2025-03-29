@@ -13,12 +13,12 @@ Aplicativo desktop desenvolvido em Java Swing que permite:
     🚫 Formatos não suportados: .txt, .docx, .xlsx (LibreOffice/Word/Excel).
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
   🚀 Roadmap
-----------------------------------------------------------------
-Versão	       |   Status  |	        Observação               |
-----------------------------------------------------------------
-Java Swing	   |✅ Completo|	Versão estável (IntelliJ + Maven)|
-----------------------------------------------------------------
-Multiplataforma|🔄 Em breve|	Suporte para Linux/Mac/Windows   |
+--------------------------------------------------------------------------
+Versão	               |   Status  |	        Observação               |
+--------------------------------------------------------------------------
+Java Swing	           |✅ Completo|	Versão estável (IntelliJ + Maven)|
+--------------------------------------------------------------------------
+Multiplataforma        |🔄 Em breve|	Suporte para Linux/Mac/Windows   |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Tecnologias & Ferramentas
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -35,14 +35,23 @@ Build Tool	  Maven
 📂 Estrutura do Projeto
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 LeitorPDFSilencioso/
+<br>
 ├── src/
-│   ├── main/java/org/example/
-│   │   ├── Main             # Arquivo Principal
-│   │   ├── MainFrame/       # Interface Swing    
-│   │   └── PDFViewer/       # Classes de dados     
-│   └── test/                # Testes unitários
-├── target/                  # Builds (ignorado pelo Git)
-└── LeitorPDFSilencioso-1.0-SNAPSHOT.jar    # Executável final
+<br>
+│  ├── main/java/org/example/
+<br>
+│   │   ── Main             # Arquivo Principal
+<br>
+│   │   -─ MainFrame/       # Interface Swing    
+<br>
+│   │   ── PDFViewer/       # Classes de dados     
+<br>
+│   ── test/                # Testes unitários
+<br>
+── target/                  # Builds (ignorado pelo Git)
+<br>
+── LeitorPDFSilencioso-1.0-SNAPSHOT.jar    # Executável final
+<br>
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚡ Como Executar
 Pré-requisitos
@@ -65,9 +74,13 @@ Métodos
    🔒 Boas Práticas
 
 ✔️ .gitignore otimizado para Java/Maven.
+<br>
 ✔️ Arquitetura MVC (Model-View-Controller).
+<br>
 ✔️ Tratamento de exceções para arquivos inválidos.
+<br>
 ✔️ Documentação no código (JavaDoc).
+<br>
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 🌟 Próximos Passos
 
@@ -77,4 +90,4 @@ Métodos
 
     🐧 Build automático para Linux (.deb/.rpm).
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-<p align="center"> 👨‍💻 Desenvolvido com café e música! <br> <img src="https://img.icons8.com/color/48/000000/brazil.png" width="20"> <em>Feito no Brasil com muita zuera!!!</em> 😄 </p> ```
+<p align="center"> 👨‍💻 Desenvolvido com café e música! <br> <img src="https://img.icons8.com/color/48/000000/brazil.png" width="20"> <em>Feito no Brasil com muita zuera!!!</em> 😄 </p>
