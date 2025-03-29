@@ -1,0 +1,54 @@
+# --- Arquivos compilados do Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+
+# --- Diretórios de build e dependências ---
+/target/
+/build/
+/out/
+/bin/
+*.iml
+
+# --- IDE (IntelliJ/Android Studio) ---
+.idea/
+*.ipr
+*.iws
+*.iml
+*.ids
+*.orig
+*.swp
+*.swo
+*~
+
+# --- Sistema operacional (Linux/Mac) ---
+.DS_Store          # Mac
+.Trashes           # Mac
+Thumbs.db          # Windows
+ehthumbs.db        # Windows
+
+# --- Maven/Gradle ---
+.gradle/
+.mvn/
+mvnw
+mvnw.cmd
+gradlew
+gradlew.bat
+dependency-reduced-pom.xml
+
+# --- Logs e temp files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+/nbproject/private/
+/var/
+/tmp/
+
+# --- VSCode (caso use) ---
+.vscode/
+.settings/

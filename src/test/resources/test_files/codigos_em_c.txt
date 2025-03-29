@@ -1,0 +1,215 @@
+---------------------Olá Mundo-------------------------------------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+
+
+int main(){
+
+    printf("Olá Mundo!");
+                  
+}
+
+
+-----------------Valor Positivo ou Negativo------------------------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+
+
+int main(){
+    
+int x;
+    
+printf("Digite o valor de x: ");
+
+scanf("%d", &x);
+    
+    
+if (x > 0){
+        
+printf("x é positivo\n");
+    
+}
+    
+else       
+printf("x é negativo\n");
+
+}
+-------------------------------Soma de valores----------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+
+int main(){
+    
+int x, y, z;
+
+    
+printf("Digite o valor de x: ");
+
+scanf("%d", &x);
+    
+printf("Digite o valor de y: ");
+    
+scanf("%d", &y);
+    
+    
+z = x + y;
+
+        
+printf("A soma de x e y é: %d\n", z);
+
+}
+-----------------------Comissão------------------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+
+
+int main(){
+    
+
+int id_vendedor, quantidade_vendida, codigo_peca;
+    
+
+float preco_peca, comissao;
+    
+
+
+printf("Insira o ID do vendedor: ");
+    
+
+scanf("%d", &id_vendedor);
+    
+    
+
+printf("Insira o código da peça: ");
+    
+
+scanf("%d", &codigo_peca);
+    
+    
+
+printf("Insira o preço da peça: ");
+    
+
+scanf("%f", &preco_peca);
+    
+    
+
+printf("Insira a quantidade vendida: ");
+    
+
+scanf("%d", &quantidade_vendida);
+    
+    
+
+comissao = (preco_peca * quantidade_vendida) * 0.05;
+    
+    
+
+printf("A comissão do vendedor %d é: %.2f\n", id_vendedor, comissao);
+    
+    
+
+return 0;
+
+
+}
+--------------------------Cotação Dólar---------------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main(void){
+    float cotacao_dolar, valor_dolar, valor_real;
+    
+    printf("Digite a cotação do dólar: ");
+    scanf("%f", &cotacao_dolar);
+    
+    printf("Digite o valor em dólar: ");
+    scanf("%f", &valor_dolar);
+    
+    valor_real = valor_dolar * cotacao_dolar;
+    printf("O valor em real é: %.2f\n", valor_real);
+    
+    return 0;
+}
+---------------------------Soma e Cálculo dos Quadrados------------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main(void) {
+    int num1, num2, num3, num4;
+    int soma;
+    
+    printf("Digite o primeiro número: ");
+    scanf("%d", &num1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%d", &num2);
+    
+    printf("Digite o terceiro número: ");
+    scanf("%d", &num3);
+    
+    printf("Digite o quarto número: ");
+    scanf("%d", &num4);
+    
+    soma = num1 * num1 + num2 * num2 +num3 * num3 + num4 * num4;
+    printf("A soma dos quadrados dos números é: %d\n", soma);
+}
+----------------------Notas Ponderadas----------------------------------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main() {
+    float nota1, nota2, nota3, media;
+
+    printf("Digite a primeira nota: ");
+    scanf("%f", &nota1);
+
+    printf("Digite a segunda nota: ");
+    scanf("%f", &nota2);
+
+    printf("Digite a terceira nota: ");
+    scanf("%f", &nota3);
+
+    media = (nota1*2 + nota2*3 + nota3*5) / 10;
+
+    printf("A media final do aluno e: %.2f", media);
+
+    return 0;
+}
+---------------------------------------------Números Inteiros Positivos, calculados pela fórmula---------------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main() {
+    int a, b, c, r, s, d;
+
+    printf("Digite três números inteiros e positivos (separados por espaço): ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    r = (a + b) * (a + b);
+    s = (b + c) * (b + c);
+    d = (r + s) /2;
+
+    printf("O resultado da expressão é: %d", d);
+
+    return 0;
+}
+----------------------------------------------Cálculo das distâncias--------------------------------------------------------------------------------------------------
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float x1, y1, x2, y2, dist;
+
+    // Entrada dos pontos
+    printf("Digite as coordenadas do primeiro ponto (x1,y1): ");
+    scanf("%f %f", &x1, &y1);
+
+    printf("Digite as coordenadas do segundo ponto (x2,y2): ");
+    scanf("%f %f", &x2, &y2);
+
+    // Cálculo da distância
+    dist = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+
+    // Saída da distância
+    printf("A distância entre os pontos (%.2f, %.2f) e (%.2f, %.2f) é: %.2f\n", x1, y1, x2, y2, dist);
+
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------------------
